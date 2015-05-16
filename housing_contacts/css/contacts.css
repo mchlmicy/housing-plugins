@@ -1,0 +1,70 @@
+.contact-row
+{	font-family: 'Open sans', sans-serif;
+}
+
+.contact.archive
+{	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 33%;
+}
+
+.contact .photo-frame
+{	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	height: 150px;
+	overflow: hidden;
+	width: 150px;
+}
+.contact.archive .photo-frame
+{ 	display: inline-block;
+	margin-bottom: 19px;
+}
+.contact .photo-frame img
+{	width: 100%;
+}
+
+.contact.archive .contact-content
+{	display: block;
+}
+.contact.archive .contact-content .container
+{	padding: 0px 19px;
+}
+.contact .contact-content .sub-header
+{	color: #606060;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.contact .contact-content .header
+{	color: #000000;
+	display: block;
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.contact .contact-content .header-link
+{	display: block; 
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.contact .contact-content .body
+{	color: #303030;
+	display: block;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: left;
+}
+.contact .contact-content hr
+{	border-bottom: none;
+	border-top: 1px solid #808080;
+}
+.contact .contact-content .footer-link
+{	color: #808080;
+	display: block;
+	font-size: 16px;
+	margin: 19px 0px;
+	text-align: left;
+}

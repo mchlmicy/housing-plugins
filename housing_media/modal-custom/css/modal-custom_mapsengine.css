@@ -1,0 +1,10 @@
+.modal .modal-footer a.modal-link
+{	color: #555555;
+	font-weight: 600;
+	text-decoration: none;
+}
+.modal .modal-footer a.modal-link:hover,
+.modal .modal-footer a.modal-link:focus,
+.modal .modal-footer a.modal-link:active
+{	color: #303030;
+}

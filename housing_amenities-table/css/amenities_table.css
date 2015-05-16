@@ -1,0 +1,116 @@
+/* Metabox CSS */
+desktop
+{	display: inherit;
+}
+mobile
+{	display: none;
+}
+@media (max-width: 560px), (min-width: 851px) and (max-width: 1040px)
+{
+	desktop
+	{	display: none;
+	}
+	mobile
+	{	display: inherit;
+	}
+}
+
+.amenity-tab-container
+{	background-color: #e3e3e3;
+	border: 1px solid #c0c0c0;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.amenity-tab
+{	background-color: #ffffff;
+	border: 1px solid #c0c0c0;
+	border-bottom: none;
+	border-top: none;
+	font-weight: bold;
+	text-decoration: none;
+}
+.amenity-tab:hover,
+.amenity-tab:active
+{	background-color: #f0f0f0;
+	text-decoration: none;
+}
+.amenity-tab:first-child
+{	border-left: none;
+}
+.amenity-tab.selected
+{	background-color: #f0f0f0;
+}
+.amenity-tab div
+{	display: inline-block;
+	padding: 0px 4.5px;
+}
+
+.amenity-container
+{	background-color: #f5f5f5;
+	border: 1px solid #c0c0c0;
+	border-top: none;
+	padding: 9px 4.5px;
+}
+.amenity-title
+{	display: inline-block;
+	margin-right: 9px;
+	width: 85px;
+}
+
+/* Widget CSS */
+.amenitiestable
+{	border: none;
+	font-family: helvetica;
+	margin: 19px 0px;
+}
+
+.amenitiestable th
+{	background-color: #293f6f;
+	padding: 10px 15px;
+	width: 100%;
+}
+.amenitiestable th h3
+{	color: #ffffff;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.amenitiestable td
+{	background-color: #f5f5f5;
+	border-top: none;
+	color: #606060;
+	font-size: 12px;
+	padding: 8px 15px;
+	width: 50%;
+}
+.amenitiestable td:first-child
+{	background-color: #f5f5f5;
+	border-left: 1px solid #e3e3e3;
+}
+.amenitiestable td:last-child
+{	background-color: #f5f5f5;
+	border-right: 2px solid #e3e3e3;
+}
+.amenitiestable td.subheader
+{	background-color: #e0e0e0;
+	padding: 6px 0px;
+}
+.amenitiestable td.footer
+{	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	border-right-width: 2px;
+	border-top: none;
+}
+.amenitiestable td h5
+{	color: #404040;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.amenitiestable tr td:last-child
+{	text-align: center; 
+}

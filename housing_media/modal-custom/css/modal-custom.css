@@ -1,0 +1,23 @@
+/* 	modal-backdrop */
+.modal-backdrop{position: fixed; bottom: 0px;} /* bad CSS - overwrite for flawwed environment */
+
+/* modal */
+.modal{font-family: 'Open Sans', san-serif;}
+.modal .modal-dialog{margin-top: 77px;}
+
+/* modal-content */
+.modal .modal-content{border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;}
+
+/* modal-header */
+.modal.complex .modal-header{background-color: #293f6f; border-bottom: none; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; color: #ffffff;}
+.modal.complex .modal-header .close{background: 0px 0px; border: 0px; color: #000000; float: right; font-size: 21px; font-weight: 700; line-height: 1; opacity: .2; filter: alpha(opacity=20); padding: 0px; text-shadow: 0px 1px 0px #ffffff;}
+.modal.complex .modal-header .close:hover, .modal.complex .modal-header .close:active, .modal.complex .modal-header .close:focus{color: #000000; opacity: .5; text-decoration: none;}
+.modal.complex .modal-header .modal-title{display: inline-block; float: left; font-size: 18px;}
+.modal.complex .modal-header .modal-subtitle{clear: both; color: #808080; font-size: 14px;}
+
+/* modal-body */
+.modal .modal-body{padding: 15px 20px;}
+.modal.complex .modal-body{padding: 0px;}
+
+/* modal-footer */
+.modal .modal-footer{background-color: #f5f5f5; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; -moz-border-radius-bottomleft: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-left-radius: 4px; -webkit-border-bottom-right-radius: 4px; margin-top: 0px; padding: 12px 20px;}

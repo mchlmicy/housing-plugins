@@ -1,0 +1,67 @@
+.housing-staff-files
+{	background-color: rgba(0,0,0,.03);
+	border: 1px solid rgba(0,0,0,.05);
+	color: #404040;
+	font-family: "Open Sans", san-serif !important;
+}
+
+.housing-staff-files a
+{	color: #404040 !important;
+}
+.housing-staff-files a:hover,
+.housing-staff-files a:active
+{	color: #202020 !important;
+}
+
+.file-container
+{	border-bottom: 1px solid rgba(0,0,0,.1);
+	padding: 9px;
+}
+.file-container:last-child
+{	border-bottom: none
+}
+
+.file-container .thumbnail-container
+{	display: inline-block;
+	max-height: 80px;
+	margin-right: 19px;
+	vertical-align: top;
+	width: 80px;
+}
+.file-container .thumbnail-container .stock-thumbnail,
+.file-container .thumbnail-container .thumbnail
+{	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.file-container .thumbnail-container .thumbnail
+{	border: 1px solid #ddd;
+	border-radius: 0px;
+	max-height: 60px;
+	max-width: 60px;
+	padding: 4px;
+}
+.file-container .thumbnail-container .thumbnail>img
+{	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+	
+.file-container .description-container
+{	display: inline-block;
+}
+.file-container .description-container .title
+{	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 9px;
+}
+.file-container .description-container .file-download
+{	display: block;
+	font-size: 14px;
+	margin-bottom: 3px;
+	text-decoration: underline;
+}
+.file-container .description-container p
+{	font-size: 12px;
+}
